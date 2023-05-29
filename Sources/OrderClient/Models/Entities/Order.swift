@@ -1,5 +1,5 @@
 //
-//  Category.swift
+//  Order.swift
 //  OrderClient
 //
 //  Created by JeongTaek Han on 2023/05/29.
@@ -8,9 +8,10 @@
 import Foundation
 
 
-struct Category {
+struct Order {
     
-    var id: Int
-    var name: String
+    var menuItems: [MenuItem]
     
 }
+
+extension Order: Codable {}

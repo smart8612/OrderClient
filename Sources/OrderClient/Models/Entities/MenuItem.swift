@@ -18,3 +18,16 @@ struct MenuItem {
     var imageURL: URL
     
 }
+
+extension MenuItem: Codable {
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case detailText = "description"
+        case price
+        case category
+        case imageURL = "image_url"
+    }
+    
+}
