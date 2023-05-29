@@ -15,7 +15,7 @@ public protocol RestaurantAPIFetchable {
     
 }
 
-extension RestaurantAPIFetchable {
+public extension RestaurantAPIFetchable {
     
     func submitOrder(forMenuIDs menuIDs: [Int]) async throws -> MinutesToPrepare {
         let apiRequest = RestaurantOrderPostAPIRequest(menuIDs: menuIDs)
