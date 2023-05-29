@@ -10,12 +10,12 @@ import Foundation
 
 public struct MenuItem {
     
-    var id: Int
-    var name: String
-    var detailText: String
-    var price: Double
-    var category: Category
-    var imageURL: URL
+    public var id: Int
+    public var name: String
+    public var detailText: String
+    public var price: Double
+    public var category: Category
+    public var imageURL: URL
     
     public init(id: Int, name: String, detailText: String, price: Double, category: Category, imageURL: URL) {
         self.id = id
