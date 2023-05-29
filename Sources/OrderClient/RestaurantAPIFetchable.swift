@@ -9,7 +9,7 @@ import Foundation
 import NetworkKit
 
 
-protocol RestaurantAPIFetchable {
+public protocol RestaurantAPIFetchable {
     
     typealias MinutesToPrepare = Int
     
