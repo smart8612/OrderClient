@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Order {
+public struct Order {
     
     var menuItems: [MenuItem]
     

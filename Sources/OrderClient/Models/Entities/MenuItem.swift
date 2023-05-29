@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct MenuItem {
+public struct MenuItem {
     
     var id: Int
     var name: String
