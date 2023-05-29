@@ -17,6 +17,15 @@ public struct MenuItem {
     var category: Category
     var imageURL: URL
     
+    public init(id: Int, name: String, detailText: String, price: Double, category: Category, imageURL: URL) {
+        self.id = id
+        self.name = name
+        self.detailText = detailText
+        self.price = price
+        self.category = category
+        self.imageURL = imageURL
+    }
+    
 }
 
 extension MenuItem: Codable {
