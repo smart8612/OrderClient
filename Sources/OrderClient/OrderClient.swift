@@ -1,6 +1,11 @@
-public struct OrderClient {
-    public private(set) var text = "Hello, World!"
+//
+//  OrderClient.swift
+//  OrderClient
+//
+//  Created by JeongTaek Han on 2023/05/29.
+//
 
-    public init() {
-    }
-}
+import Foundation
+
+
+struct OrderClient: RestaurantAPIFetchable {}
