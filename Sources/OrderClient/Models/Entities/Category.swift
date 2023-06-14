@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public struct Category {
     
     public var id: Int

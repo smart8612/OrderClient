@@ -8,7 +8,6 @@
 import Foundation
 import NetworkKit
 
-
 public protocol RestaurantAPIFetchable {
     
     typealias MinutesToPrepare = Int

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct ImageGetAPIRequest: RestaurantAPIRequest {
     
     typealias Response = Data

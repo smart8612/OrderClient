@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public struct Order {
     
     public var menuItems: [MenuItem]

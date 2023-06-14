@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct OrderResponse {
     
     let preperationTime: Int
