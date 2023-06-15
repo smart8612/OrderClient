@@ -19,7 +19,7 @@ public struct Order {
     /// A menu items maintains the list of foods which consumer requested.
     public var menuItems: [MenuItem]
     
-    /// Creates a order with the specified menu items.
+    /// Creates an order with the specified menu items.
     /// - Parameter menuItems: The menu item list of the order
     public init(menuItems: [MenuItem] = []) {
         self.menuItems = menuItems
