@@ -7,4 +7,5 @@
 
 import Foundation
 
+/// A network client object to manage api request.
 struct OrderClient: RestaurantAPIFetchable {}
