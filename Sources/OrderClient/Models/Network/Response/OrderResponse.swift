@@ -7,7 +7,8 @@
 
 import Foundation
 
-
+/// A type that is used to decode json object
+/// which is returned by restaurant server.
 struct OrderResponse {
     
     let preperationTime: Int

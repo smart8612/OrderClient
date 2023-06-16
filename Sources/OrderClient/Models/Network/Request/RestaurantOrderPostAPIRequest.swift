@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct RestaurantOrderPostAPIRequest: RestaurantAPIRequest {
     
     typealias Response = OrderResponse
