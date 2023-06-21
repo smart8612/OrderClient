@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/smart8612/NetworkKit", from: "0.1.0"),
+        .package(url: "https://github.com/smart8612/NetworkKit", exact: "0.1.0-beta"),
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
     ],
     targets: [
